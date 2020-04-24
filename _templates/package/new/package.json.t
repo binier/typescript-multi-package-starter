@@ -7,6 +7,9 @@ to: packages/<%= name %>/package.json
   "version": "0.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
   "repository": {
     ...repository,
     directory: 'packages/' + name

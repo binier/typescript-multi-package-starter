@@ -5,7 +5,8 @@ to: packages/<%= name %>/package.json
   "name": baseName ? baseName + '/' + name : name,
   "license": license,
   "version": "0.0.0",
-  "main": "dist/index",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     ...repository,
     directory: 'packages/' + name

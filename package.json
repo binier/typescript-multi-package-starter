@@ -12,6 +12,7 @@
     ]
   },
   "scripts": {
+    "package:add": "hygen package new",
     "lint": "eslint '**/*.{ts,js}'",
     "lint:check": "yarn lint",
     "lint:fix": "yarn lint -- --fix",

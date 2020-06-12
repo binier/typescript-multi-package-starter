@@ -7,7 +7,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@typescript-multi-lib-starter/*": ["packages/*/src"]
+      "@typescript-multi-package-starter/*": ["packages/*/src"]
     }
   }
 }

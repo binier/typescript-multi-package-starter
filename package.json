@@ -1,10 +1,10 @@
 {
   "private": true,
-  "name": "typescript-multi-lib-starter",
+  "name": "typescript-multi-package-starter",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/binier/typescript-multi-lib-starter.git"
+    "url": "https://github.com/binier/typescript-multi-package-starter.git"
   },
   "workspaces": {
     "packages": [
